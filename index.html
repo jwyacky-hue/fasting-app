@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fasting Pro</title>
+
+  <!-- Fuente moderna -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    <h1>Ayuno activo</h1>
+
+    <div class="card">
+      <div class="time" id="timer">00:00:00</div>
+      <p>Objetivo: 16 horas</p>
+    </div>
+
+    <button onclick="startFasting()">Iniciar ayuno</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
